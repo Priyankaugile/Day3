@@ -1,7 +1,10 @@
-public class Start {
+public class Attendance {
     public static void main(String[] args) {
-        System.out.println("Welcome to Employee\n" +
-                "Wage Computation\n" +
-                "Program on Master Branch");
+
+        double empCheck = Math.floor(Math.random()*10)%2;
+        if(empCheck == 1)
+            System.out.println("employee is present");
+        else
+            System.out.println("employee is absent");
     }
 }
